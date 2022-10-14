@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/The-Petros-Team/travel-agency-config-repo
+          search-paths:
+            - configurations
